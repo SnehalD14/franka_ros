@@ -17,4 +17,5 @@ All packages of `franka_ros` are licensed under the [Apache 2.0 license][apache-
 
 Changes were made to integrate Franka Emika with Gazebo and Moveit
 
-1. ``Camera link`` was added [Panda xacro](franka_description/robots/panda_arm_hand.urdf.xacro)
+1. *Camera link* was added [Panda xacro](franka_description/robots/panda_arm_hand.urdf.xacro)
+2. 
