@@ -13,7 +13,7 @@ All packages of `franka_ros` are licensed under the [Apache 2.0 license][apache-
 [travis-status]: https://travis-ci.org/frankaemika/franka_ros.svg?branch=kinetic-devel
 [travis]: https://travis-ci.org/frankaemika/franka_ros
 
-## Modifications
+### Modifications
 
 Changes were made to integrate Franka Emika with Gazebo and Moveit. Main changes made:
 
