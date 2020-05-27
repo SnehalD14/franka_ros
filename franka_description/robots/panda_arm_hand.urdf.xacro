@@ -17,9 +17,11 @@
   <xacro:panda_transmission robot_name="$(arg robot_name)" load_hand="true" />
   <!-- end for simulation -->
 
-<!--Camera link and plugin-->
-   <xacro:include filename="$(find realsense_gazebo_plugin)/urdf/realsense-RS200.macro.xacro"/>
-   <xacro:realsense-rs200 prefix="" parent="panda_link8">
-        <origin xyz="0.05 0 0.05" rpy="${-pi/4} ${-pi/2} 0" />
-   </xacro:realsense-rs200>
+  <!--Camera link plugin-->
+  <xacro:include filename="$(find realsense_gazebo_plugin)/urdf/realsense-RS200.macro.xacro"/>
+  <xacro:realsense-rs200 prefix="" parent="panda_link8">
+       <!--Position of the camera wrt to link 8 -->
+       <origin xyz="0.05 0 0.05" rpy="${-pi/4} ${-pi/2} 0" />
+  </xacro:realsense-rs200>
+  <!--end for camera link-->
 </robot>
